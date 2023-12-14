@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Cabecalho from './componentes/Cabecalho';
-import Conteudo from './componentes/Conteudo';
+import { Content } from './componentes/Content';
+import { Header } from './componentes/Header';
 
 function App() {
   return (
     <div className='container'>
-      <Cabecalho />
-      <Conteudo />
+      <Header />
+      <Content />
     </div>
   );
 }

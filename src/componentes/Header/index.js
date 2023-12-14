@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function Cabecalho() {
+export function Header() {
     return (
         <header>
             <h1>RESTAURANT</h1>

@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function Cards({ produto }) {
+export function Cards({ produto }) {
     return (
         <div className='cards'>
             <figure>
